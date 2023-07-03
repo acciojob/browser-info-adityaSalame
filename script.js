@@ -2,7 +2,7 @@
 
 let d=document.createElement("div");
 document.body.appendChild(d);
-document.getElemntsByTagName("div")[0].id="browser-info";
+document.getElementsByTagName("div")[0].id="browser-info";
 d.innerHTML="You are using " + navigator.appName + " version " + navigator.appVersion;
 
 // 
